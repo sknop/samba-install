@@ -41,6 +41,7 @@
         - libnss-winbind
         - krb5-kdc
         - libpam-krb5
+        - ldap-utils
       state: present
       update_cache: true
       cache_valid_time: 3600
